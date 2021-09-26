@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.jokes-list {
+  margin-top: 2rem;
+  text-align: left;
+  list-style: none;
+  padding: 10px;
+}
+
+.jokes-list > li {
+  padding: 1rem;
+  margin: 0;
+}
+
+.jokes-list > li:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.16);
+}
+
+.jokes-list > li:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.01);
+}
